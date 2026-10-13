@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on shinichi-archive</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://example.org/posts/</link>
     <description>Recent content in Posts on shinichi-archive</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Wed, 14 Oct 2026 02:42:40 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>何度目かのタクティクスオウガリボーンをやる（１）</title>
-      <link>http://localhost:1313/posts/tor01/</link>
+      <link>https://example.org/posts/tor01/</link>
       <pubDate>Wed, 14 Oct 2026 02:42:40 +0900</pubDate>
-      <guid>http://localhost:1313/posts/tor01/</guid>
+      <guid>https://example.org/posts/tor01/</guid>
       <description>&lt;p&gt;一定期間（半年～一年）に一回くらいTactics Ogre Rebornをやって満足する。今まで感想を書いたことはないが今回書きたくなった。&lt;/p&gt;
 &lt;p&gt;前回（2026年4月プレイ時）から「TOR Micro Overhaul」というmodを導入した。ゲームは大抵そのままするタイプなのだが、良いmodだと思って導入した。modの詳細については紹介をしているサイトや配布ページに書いてあるため記述しないが、おそらくはSFCタクティクスオウガファンが期待していたであろう難易度に近い形（正面から殴ろうとするとそれなりの確率で避けられる）であり、バグフィックスもしてあるありがたいものである。&lt;/p&gt;
 &lt;p&gt;試しにボイスなし・キーボード＋マウス操作にしてみる。視点変更をしようとして右クリック押しっぱなしでマウス移動というありがちな操作をしたが残念ながら【J】キー（左回転）と【L】キー（右回転）、ズームは【I】キー（ズームイン）と【K】キー（ズームアウト）だった。少しコントローラーに戻したくなってくる。&lt;/p&gt;
-&lt;p&gt;デニムを動かして次へ&lt;img alt=&#34;alt text&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/tor01/20260929045943.jpg&#34;&gt;ヴァイスはこの段階では解放軍の戦士というイメージではないためキャラクター付け（「戦士」「仇」という強い言葉を使って自分を奮い立たせている、そう見せている等）の一部なのかもしれない。&lt;/p&gt;
+&lt;p&gt;デニムを動かして次へ&lt;img alt=&#34;alt text&#34; loading=&#34;lazy&#34; src=&#34;https://example.org/posts/tor01/20260929045943.jpg&#34;&gt;ヴァイスはこの段階では解放軍の戦士というイメージではないためキャラクター付け（「戦士」「仇」という強い言葉を使って自分を奮い立たせている、そう見せている等）の一部なのかもしれない。&lt;/p&gt;
 &lt;p&gt;ここで操作性として思うこと
 ・カチュアが喋ってる最中にカチュアの発言を巻き戻すことはできるが別人の発言までは巻き戻せない。
 ・巻き戻しはコントローラーならボタン＋十字キー、キーマウなら吹き出しにカーソルを合わせてホイールの上下操作で行う。どちらの操作方法も、説明を見ないと分かりづらい。
@@ -27,7 +27,7 @@
 ・演習を3回行う（デニム＋汎用5～6名をレベル5へ、汎用2名はレベル1のまま予備としてストック）
 ・デニムはルーンフェンサーでレベルを上げる（終盤でMP全快アイテムを使ってスキルを連打することがあるため、ある程度の最大MPを確保したい）
 ここらへんでキーマウ操作がきつくなってきたのでコントローラへ戻すことにし、オプション-操作設定-ボタン割り当てでAとBを逆にする。&lt;/p&gt;
-&lt;p&gt;タインマウスの丘へ&lt;img alt=&#34;alt text&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/tor01/20260929014422.jpg&#34;&gt;ボイスなし設定なのに、カノープスの声が脳内で自然に再生される。&lt;/p&gt;
+&lt;p&gt;タインマウスの丘へ&lt;img alt=&#34;alt text&#34; loading=&#34;lazy&#34; src=&#34;https://example.org/posts/tor01/20260929014422.jpg&#34;&gt;ボイスなし設定なのに、カノープスの声が脳内で自然に再生される。&lt;/p&gt;
 &lt;p&gt;序盤の僧侶は&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;HP回復の利便性が消耗品の回復アイテム＞回復魔法&lt;/li&gt;
@@ -50,7 +50,7 @@
 &lt;/ul&gt;
 &lt;p&gt;レア装備（個性を薄めてしまうウイングブーツ等）をなくしてC.H.A.R.I.O.T.もなくせば難易度としては面白そうだが現実的には無理そうだ。&lt;/p&gt;
 &lt;p&gt;ここまで一見不満に見えそうな点も書いてきたが、このゲームは面白くてやる価値があるものだと思っている。&lt;/p&gt;
-&lt;p&gt;クリザローの町へ&lt;img alt=&#34;alt text&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/tor01/20260929092834.jpg&#34;&gt;なんとなくメタ的だと感じてしまう。&lt;br&gt;
+&lt;p&gt;クリザローの町へ&lt;img alt=&#34;alt text&#34; loading=&#34;lazy&#34; src=&#34;https://example.org/posts/tor01/20260929092834.jpg&#34;&gt;なんとなくメタ的だと感じてしまう。&lt;br&gt;
 ※タクティクスオウガは1995年発売かつプレザンス神父は当時のシステム通りではあるが登場時、アンデットを戦闘不能にせずにそのままイクソシズムで除霊していた。&lt;/p&gt;
 &lt;p&gt;クリア後の選択肢は以下のようになる。&lt;/p&gt;
 &lt;ol&gt;
@@ -60,7 +60,7 @@
 &lt;li&gt;実はアルモリカ城に一度引き返してからクァドリガ砦へ行くこともできる&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;ちなみに4.でレオナールを出そうとするとこうなる。&lt;img alt=&#34;alt text&#34; loading=&#34;lazy&#34; src=&#34;20260929103521-1.jpg&#34;&gt;3.を選択して出撃予定のメンバーをレベル8にする。この段階でも手動の演習であるため少し面倒である。&lt;/p&gt;
-&lt;p&gt;クァドリガ砦へ&lt;img alt=&#34;alt text&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/tor01/20260929141541.jpg&#34;&gt;「無抵抗の者と戦うつもりはない。」理性的な台詞ではあるけど、城に戻れる状況で損害が出る可能性がある場所に来るのは理性的ではない気がする。そして「ふざけるな！」はそんな感じだったっけ？になる。&lt;/p&gt;
+&lt;p&gt;クァドリガ砦へ&lt;img alt=&#34;alt text&#34; loading=&#34;lazy&#34; src=&#34;https://example.org/posts/tor01/20260929141541.jpg&#34;&gt;「無抵抗の者と戦うつもりはない。」理性的な台詞ではあるけど、城に戻れる状況で損害が出る可能性がある場所に来るのは理性的ではない気がする。そして「ふざけるな！」はそんな感じだったっけ？になる。&lt;/p&gt;
 &lt;p&gt;前口上が終わったところで状況は&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;自軍より高火力の魔法が定期的に飛んでくる&lt;/li&gt;
@@ -76,7 +76,7 @@
 &lt;li&gt;イクソシズム要員を2名に増やしHP回復はほぼアイテムで行う&lt;/li&gt;
 &lt;li&gt;補充を行えばその分攻撃魔法が減るし前衛が減っているだろうからなんらかの攻撃がニバスに届く、かもしれない&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/tor01/20260929144033.jpg&#34;&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; loading=&#34;lazy&#34; src=&#34;https://example.org/posts/tor01/20260929144033.jpg&#34;&gt;
 色々書いた割に序盤に運良く直接攻撃力のバフカードを2枚拾ったデニムが運良くニバスに接近できてしまい運良くその後も危なげなく終わってしまい運悪く書くことがない。&lt;/p&gt;
 &lt;p&gt;アルモリカ城へ帰ったら公爵の指示で密使のような任務を果たすためにフィダック城へ向かうこととなる。さらに資金も渡される。納得いかない部分はあるが、資金を渡してくれるだけ公爵は良いリーダーにも見える。&lt;/p&gt;
 &lt;p&gt;5000ゴートもらってもスタメン全員の装備を更新できる状況でもないため、スレンダースピア1本（デニム用）とバトルアックス1本（カノープス用）と消耗品を多めに補給したら出発である。&lt;/p&gt;
@@ -84,7 +84,7 @@
 &lt;p&gt;敵リーダーのブレッゼンが直接攻撃力のバフカードを2枚拾い、こちらのルーンフェンサーを殴って後退させるという珍しいことも起きたがそれでも戦力差は埋まらない。&lt;/p&gt;
 &lt;p&gt;あっさり勝利したがボーナスタスクのアーチャーを忘れていたのでやり直してみる。そして結局あっさり勝利する。自軍がLV8で敵軍はLV5（ブレッゼンだけLV6）で人数もこちらの方が多い、ほぼ障害物のない平地となれば仮にLV5同士だったとしても人数差は厳しいしmodのサイドを取った方が有利という仕様が拍車をかけている。&lt;/p&gt;
 &lt;p&gt;最初に逃げ腰の部下を殺し、戦いは数だけで決まらないと発言したブレッゼンだが「自分が死ぬことは薄々分かっていたんじゃないか？」とも思わせるような雰囲気だったりもする。ウォーレンリポートの設定を見ると無能指揮官というよりは仲間に恵まれなかった死にたがりの元剣奴に見えなくもない。&lt;/p&gt;
-&lt;p&gt;古都ライムへ、大抵の人が最初の選択肢「いずれにせよ放ってはおけない。」を選び、システィーナが死ぬとゲームオーバーになるため「メインヒロインかなにかか？」と勘違いしても仕方がない戦闘である。&lt;img alt=&#34;alt text&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/tor01/20261001031730.jpg&#34;&gt;戦いが終わったあとに話があるが、戦時の議論はこれに尽きる。&lt;/p&gt;</description>
+&lt;p&gt;古都ライムへ、大抵の人が最初の選択肢「いずれにせよ放ってはおけない。」を選び、システィーナが死ぬとゲームオーバーになるため「メインヒロインかなにかか？」と勘違いしても仕方がない戦闘である。&lt;img alt=&#34;alt text&#34; loading=&#34;lazy&#34; src=&#34;https://example.org/posts/tor01/20261001031730.jpg&#34;&gt;戦いが終わったあとに話があるが、戦時の議論はこれに尽きる。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
