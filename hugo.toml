@@ -2,9 +2,8 @@ baseURL = 'https://shinichi-archive.github.io/'
 languageCode = 'ja-jp'
 title = 'shinichi-archive'
 theme = 'PaperMod'
-menu:
-  main:
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 10
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 10
