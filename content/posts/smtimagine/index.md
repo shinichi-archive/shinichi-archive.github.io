@@ -2,9 +2,11 @@
 date = '2026-10-18T00:00:00+09:00'
 draft = false
 title = '真・女神転生IMAGINE'
-summary = "10年前のMMOのメインシナリオについての雑記{{ .Plain | strings.RuneCount }}"
+summary = "10年前のMMOのメインシナリオについての雑記"
 +++
 # はじめに
+
+{{ .Plain | strings.RuneCount }}
 
 真・女神転生IMAGINEはサービス終了（2016年5月24日）から10年経った今でも忘れられないゲームである。メインシナリオについて雑記を記す。
 - NPCの発言は要約しているものが多いため、作品中そのままではないものが殆どです。
