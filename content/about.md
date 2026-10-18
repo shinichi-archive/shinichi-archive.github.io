@@ -8,3 +8,12 @@
 GitHub Issuesまでお願いします。
 
 https://github.com/shinichi-archive/shinichi-archive.github.io/issues
+
+
+サイト作成日
+2026-10-14
+
+使用技術
+- Hugo
+- PaperMod
+- GitHub Pages
