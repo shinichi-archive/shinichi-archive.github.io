@@ -630,4 +630,4 @@ It will not Be Long Before we meet Again.
 
 # 終わりに
 
-本稿の内容以外にもExtra Chapterや他のクエストのストーリー等興味深いものが多いのでまた何か書くかも知れない。
+真・女神転生IMAGINEの面白さについて何か伝われば嬉しく思う。
