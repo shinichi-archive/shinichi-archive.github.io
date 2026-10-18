@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>予言としてのAI論 | shinichi-archive</title>
+<meta name="keywords" content="">
+<meta name="description" content="未来予測と権威の関係について考えた。">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/romaai/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/romaai/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="shinichi-archive (Alt + H)">shinichi-archive</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      予言としてのAI論
+    </h1>
+    <div class="post-meta">
+
+<span title='2026-10-16 00:00:00 +0900 JST'>2026年10月16日</span>
+
+</div>
+  </header> 
+  <div class="post-content md-content"><h1 id="ローマ法王のai論に違和感を覚えた理由">ローマ法王のAI論に違和感を覚えた理由<a hidden class="anchor" aria-hidden="true" href="#ローマ法王のai論に違和感を覚えた理由">#</a></h1>
+<p>最近、「ローマ法王がAIは危険だと発言している」という話を見かけた。</p>
+<p>最初は単純に、</p>
+<blockquote>
+<p>AIの危険性について何か科学的な根拠に基づいた発言をしているのだろうか？</p>
+</blockquote>
+<p>という疑問から調べ始めた。</p>
+<p>調べた結果として分かったのは、少なくとも現代のバチカンは昔のように地動説を否定したり、宗教的教義を科学へ押し付けたりする立場ではないらしいということだった。</p>
+<p>AIについての発言も、</p>
+<ul>
+<li>AIの兵器利用</li>
+<li>監視社会化</li>
+<li>自律型兵器</li>
+<li>アルゴリズムによる差別</li>
+<li>データによる人間管理</li>
+</ul>
+<p>といった、現在の研究者や国際機関も議論している内容と大きな差はなかった。</p>
+<p>しかし、それを理解した上でもなお違和感は消えなかった。</p>
+<h1 id="私は権威を真理の根拠にしない">私は権威を真理の根拠にしない<a hidden class="anchor" aria-hidden="true" href="#私は権威を真理の根拠にしない">#</a></h1>
+<p>根本的な話として、私は</p>
+<blockquote>
+<p>「肩書がなくても真理には到達できる」</p>
+</blockquote>
+<p>と考えている。</p>
+<p>逆に言えば、</p>
+<blockquote>
+<p>「肩書があるから正しい」</p>
+</blockquote>
+<p>とも考えない。</p>
+<p>これはローマ法王だけの話ではない。</p>
+<p>大学教授であろうが政治家であろうが大企業の社長であろうが同じである。</p>
+<p>発言内容を評価するのであって、肩書を評価するわけではない。</p>
+<p>ところがローマ法王のAI発言がニュースとして扱われるとき、多くの場合は</p>
+<blockquote>
+<p>AI研究者が発言したから</p>
+</blockquote>
+<p>ではなく</p>
+<blockquote>
+<p>ローマ法王が発言したから</p>
+</blockquote>
+<p>報じられている。</p>
+<p>ここに私は違和感を覚える。</p>
+<p>仮にその発言が正しかったとしても、</p>
+<blockquote>
+<p>「それを言った人物がローマ法王である必要はどこにあるのだろう」</p>
+</blockquote>
+<p>と思ってしまう。</p>
+<h1 id="仮に法王自身が超一流の科学者だったとしても">仮に法王自身が超一流の科学者だったとしても<a hidden class="anchor" aria-hidden="true" href="#仮に法王自身が超一流の科学者だったとしても">#</a></h1>
+<p>さらに言えば、</p>
+<p>仮にローマ法王個人がノーベル賞級の科学者だったとしても、私は同じ感想を抱くと思う。</p>
+<p>なぜならその場合でも、</p>
+<ul>
+<li>科学者として発言すること</li>
+<li>ローマ法王として発言すること</li>
+</ul>
+<p>は本来別だからだ。</p>
+<p>科学的な議論は科学コミュニティで行われればよい。</p>
+<p>宗教組織は不要である。</p>
+<p>例えばバチカンが優秀な科学者を大量に集めていたとしても、</p>
+<blockquote>
+<p>「別に宗教組織じゃなくてもよくない？」</p>
+</blockquote>
+<p>で終わる。</p>
+<p>優秀な研究者がいることと、宗教組織であることは別問題だからだ。</p>
+<h1 id="宗教と科学の歴史を考えると尚更である">宗教と科学の歴史を考えると尚更である<a hidden class="anchor" aria-hidden="true" href="#宗教と科学の歴史を考えると尚更である">#</a></h1>
+<p>私は現代のバチカンが過去と違うことは理解している。</p>
+<p>しかし歴史というものは消えない。</p>
+<p>ガリレオ裁判が象徴するように、</p>
+<p>宗教と科学は長い間対立してきた。</p>
+<p>その後バチカンは路線変更し、</p>
+<ul>
+<li>進化論を受容</li>
+<li>インテリジェント・デザインを否定</li>
+<li>科学者との協力を強化</li>
+</ul>
+<p>といった方向へ進んだ。</p>
+<p>これは理解している。</p>
+<p>しかし、</p>
+<blockquote>
+<p>「では過去の経緯を全て忘れて科学について語る宗教組織を信用すべきか」</p>
+</blockquote>
+<p>と言われると別問題である。</p>
+<p>犯罪者が犯罪を非難しても内容自体は正しいことがある。</p>
+<p>だから過去の行いだけで否定するのは理知的ではない。</p>
+<p>しかし同時に、</p>
+<blockquote>
+<p>「なぜその組織がわざわざその分野で発言する必要があるのか」</p>
+</blockquote>
+<p>という疑問は残る。</p>
+<p>私にはそこが解消されない。</p>
+<h1 id="ai兵器禁止論への違和感">AI兵器禁止論への違和感<a hidden class="anchor" aria-hidden="true" href="#ai兵器禁止論への違和感">#</a></h1>
+<p>法王はAIの軍事利用を警戒しているらしい。</p>
+<p>しかし私はここにも大きな疑問を持つ。</p>
+<p>科学と軍事は歴史的に切り離せない。</p>
+<p>レーダーもロケットもコンピュータもインターネットも、多くは軍事研究から発展した。</p>
+<p>もちろん戦争は悲惨である。</p>
+<p>だが歴史を見れば、</p>
+<blockquote>
+<p>人類は争いを通じて科学技術を発展させてきた</p>
+</blockquote>
+<p>のも事実である。</p>
+<p>そして技術を独占した国家は優位に立つ。</p>
+<p>もし日本が核兵器を完全に無効化できる超技術を開発したとして、</p>
+<p>世界平和のためだからと全国家へ無償提供するだろうか。</p>
+<p>私はそう思わない。</p>
+<p>多くの国家もそう思わないだろう。</p>
+<p>結局のところ、</p>
+<blockquote>
+<p>技術は権益と結びつく</p>
+</blockquote>
+<p>のである。</p>
+<p>AIも同じだ。</p>
+<p>だから</p>
+<blockquote>
+<p>「AI兵器をやめよう」</p>
+</blockquote>
+<p>という主張には理想論以上のものを感じない。</p>
+<h1 id="機械の楽園で人間性を失うという表現がよく分からない">「機械の楽園で人間性を失う」という表現がよく分からない<a hidden class="anchor" aria-hidden="true" href="#機械の楽園で人間性を失うという表現がよく分からない">#</a></h1>
+<p>法王は</p>
+<blockquote>
+<p>機械の楽園の中で人間性を失う危険がある</p>
+</blockquote>
+<p>とも発言している。</p>
+<p>しかし私はこう思う。</p>
+<p>倫理なきAI利用が問題なのではなく、</p>
+<p>倫理なき人間がAIを利用していることが問題なのではないか。</p>
+<p>AIだから危険なのではない。</p>
+<p>銃でもSNSでも核兵器でも同じだ。</p>
+<p>危険なのは人間である。</p>
+<p>AIが人間を管理するのではない。</p>
+<p>人間がAIを使って人間を管理するのである。</p>
+<p>そこを曖昧にすると、</p>
+<p>責任の所在を AI に押し付ける議論になってしまう。</p>
+<h1 id="aiは暴力の主体ではない">AIは暴力の主体ではない<a hidden class="anchor" aria-hidden="true" href="#aiは暴力の主体ではない">#</a></h1>
+<p>現在のAIについて言えば、</p>
+<p>私はそもそもAI自身が暴力を振るうという見方をしていない。</p>
+<p>少なくとも現代のAIは、</p>
+<p>欲望を持たない
+自己保存を持たない
+目的を自分で作らない</p>
+<p>からだ。</p>
+<p>AIが誰かを攻撃したとする。</p>
+<p>その場合、</p>
+<p>攻撃を指示した人間が存在する。</p>
+<p>責任はその人間にある。</p>
+<p>非常に単純な話だ。</p>
+<p>AIを暴力の主体として語るより、</p>
+<blockquote>
+<p>AIを使って何をしようとする人間がいるか</p>
+</blockquote>
+<p>を考える方が重要だと思う。</p>
+<h1 id="宗教とaiは分離すべきではないか">宗教とAIは分離すべきではないか<a hidden class="anchor" aria-hidden="true" href="#宗教とaiは分離すべきではないか">#</a></h1>
+<p>最終的に私が行き着いた結論はこれである。</p>
+<p>宗教には倫理や道徳について蓄積された知見がある。</p>
+<p>新約聖書から学べることも多い。</p>
+<p>私はキリスト教徒ではないが、キリストの語った内容自体は興味深いと思う。</p>
+<p>しかし、</p>
+<p>宗教的組織がAIガバナンスへ直接関与するべきか</p>
+<p>と言われれば否である。</p>
+<p>AIは規則を実装する技術である。</p>
+<p>そこへ宗教を混ぜれば、</p>
+<p>意図的であろうとなかろうと宗教的価値観が埋め込まれる可能性が生まれる。</p>
+<p>仮に埋め込まれていなくても、</p>
+<p>疑念は消えない。</p>
+<p>無いことを証明するのは難しいからである。</p>
+<p>だから私は、</p>
+<p>AIガバナンスは</p>
+<ul>
+<li>人権</li>
+<li>法治主義</li>
+<li>民主主義</li>
+<li>合理性</li>
+</ul>
+<p>といった世俗的原理のみで構成すべきだと思う。</p>
+<h1 id="結論">結論<a hidden class="anchor" aria-hidden="true" href="#結論">#</a></h1>
+<p>ローマ法王のAI論が正しいか間違っているかは、私にとって本質ではない。</p>
+<p>本質は、</p>
+<blockquote>
+<p>ローマ法王という肩書が、その発言にどれほどの価値を与えるのか</p>
+</blockquote>
+<p>という点である。</p>
+<p>私の答えはシンプルだ。</p>
+<p>科学的価値は肩書によって増減しない。</p>
+<p>真理はローマ法王だから正しいのでもなければ、無名の人間だから間違っているのでもない。</p>
+<p>だから私は、AIの危険性を考える際にローマ法王を見るより、</p>
+<p>研究者の論文や技術者の議論を見る。</p>
+<p>それで十分だと思っている。</p>
+<h1 id="最後に">最後に<a hidden class="anchor" aria-hidden="true" href="#最後に">#</a></h1>
+<p>この記事は、私の思考をAIへ何度も投げ、出力内容を確認しながら整理していった結果である。</p>
+<p>AIに文章を書かせたというよりは、思考の壁打ち相手として使用し、最後にまとめ役を任せたと言った方が近い。校正や構成整理の時間は大きく短縮できたと思う。</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">shinichi-archive</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
